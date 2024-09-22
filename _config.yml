@@ -218,7 +218,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talk:
+  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -275,7 +275,7 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: talks
       author_profile: true
       share: true
 
