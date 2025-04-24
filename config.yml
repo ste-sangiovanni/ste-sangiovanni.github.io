@@ -10,8 +10,8 @@ taxonomies:
 
 menu:
   main:
-    - name: Presentations
-      url: presentations/
+    - name: Conferences & Talks
+      url: talks/
       weight: 2
     - name: Papers
       url: papers/
@@ -37,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["presentations", "papers", "teaching"]
+    MainSections: ["Talks", "papers", "teaching"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -53,8 +53,8 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-          - name: Presentations
-            url: presentations/
+          - name: Conferences & Talks
+            url: talks/
           - name: Papers
             url: papers/
           - name: Teaching
