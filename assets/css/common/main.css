@@ -75,10 +75,8 @@ pre:hover .copy-code {
     display: block;
 }
 
-a {
-    color: var(--link-color);
-}
-
-a:hover {
-    color: var(--secondary);
-}
+.subtitle a {
+    color: #0077cc; /* colore che vuoi tu */
+    text-decoration: underline; /* opzionale, se vuoi il sottolineato */
+  }
+  

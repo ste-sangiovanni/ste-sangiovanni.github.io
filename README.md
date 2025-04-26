@@ -1,4 +1,4 @@
-Source code for my [academic website](https://ste-sangiovanni.github.io/). 
+Source code for my [academic website](https://ste-sangiovanni.github.io/). Any errors, messy code or questionable decisions are my fault :D
 
 Built using [this](https://github.com/pmichaillat/hugo-website/) template by [Pascal Michaillat](https://pascalmichaillat.org/). 
 
