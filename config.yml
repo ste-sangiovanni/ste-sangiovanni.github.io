@@ -57,12 +57,12 @@ params:
         Hello! This is Stefano 🌚
 
         <br>
-        I’m a PhD candidate at <a href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of <a href="https://andreaceron.com/">Prof. Andrea Ceron</a> and <a href="https://giovannainvernizzi.com/"><b>Prof. Giovanna Invernizzi</b></a>. Currently, I am visiting the <b>Mannheim Centre for European Social Research</b> <a href="https://www.mzes.uni-mannheim.de/"><b>(MZES)</b></a>.
+        I’m a PhD candidate at <a href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of <a href="https://andreaceron.com/">Prof. Andrea Ceron</a> and <a href="https://giovannainvernizzi.com/">Prof. Giovanna Invernizzi</a>. Currently, I am visiting the <b>Mannheim Centre for European Social Research</b> <a href="https://www.mzes.uni-mannheim.de/"><b>(MZES)</b></a>.
 
-        <br><br>
+        <br>
         I study how political parties balance positional and valence-based strategies to shape political competition and influence voter perceptions. My research focuses on the use of valence strategies by parties across different contexts and their effects on voters. I also analyze the impact of negative valence shocks, such as political scandals. 
   
-        <br><br>
+        <br>
         I use <b>quantitative and computational methods</b>, including text analysis, survey experiments, and large language models.  
       imageUrl: "picture.jpeg"
       imageWidth: 160
