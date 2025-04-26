@@ -10,15 +10,20 @@ taxonomies:
 
 menu:
   main:
+    - name: CV
+      url: https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf
+      weight: 2
+      params:
+        target: "_blank"
     - name: Conferences & Talks
       url: talks/
-      weight: 2
+      weight: 3
     - name: Papers
       url: papers/
-      weight: 3
+      weight: 4
     - name: Teaching
       url: teaching/
-      weight: 4
+      weight: 5
 
 
 params:
@@ -49,10 +54,18 @@ params:
       enabled: true
       title: Stefano Sangiovanni
       subtitle: |
-        I’m a PhD candidate at [NASP, University of Milan](https://www.nasp.eu/). Currently, I am visiting the Mannheim Centre for European Social Research [(MZES)](https://www.mzes.uni-mannheim.de/). I study how political parties balance positional and valence-based strategies to shape political competition and influence voter perceptions.  
+        Hello! This is Stefano! :) 
+
+        <br><br>
+        I’m a PhD candidate at [NASP, University of Milan](https://www.nasp.eu/) under the supervision of [Prof. Andrea Ceron](https://andreaceron.com/) and [Prof. Giovanna Invernizzi](https://giovannainvernizzi.com/). Currently, I am visiting the Mannheim Centre for European Social Research [(MZES)](https://www.mzes.uni-mannheim.de/). 
         
-        My research focuses on the use of valence strategies by parties across different contexts and their effects on voters. I also analyze the impact of negative valence shocks, such as political scandals. I use quantitative and computational methods, including text analysis, survey experiments, and large language models.  
+        <br><br>
+        I study how political parties balance positional and valence-based strategies to shape political competition and influence voter perceptions. My research focuses on the use of valence strategies by parties across different contexts and their effects on voters. I also analyze the impact of negative valence shocks, such as political scandals. 
         
+        <br><br>
+        I use quantitative and computational methods, including text analysis, survey experiments, and large language models.  
+        
+        <br><br>
         You can read my CV by [clicking here](https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf).
       imageUrl: "picture.jpeg"
       imageWidth: 160
@@ -83,8 +96,10 @@ params:
         #  url: https://pmichaillat.substack.com
         #- name: YouTube
         #  url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        #- name: Twitter
-        #  url: https://twitter.com/McCallSmith
+        - name: Twitter
+          url: https://x.com/SteSangio
+        - name: BlueSky
+          url: https://bsky.app/profile/stesangio.bsky.social
 
     assets:
         disableScrollBarStyle: true
