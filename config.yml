@@ -22,7 +22,7 @@ menu:
 
 
 params:
-    description: "PhD Candidate"
+    description: ""
     author: Stefano Sangiovanni
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -37,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["Talks", "papers", "teaching"]
+    MainSections: ["talks", "papers", "teaching"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -46,19 +46,21 @@ params:
     comments: false
     math: true
     profileMode:
-          enabled: true
-          title: Stefano Sangiovanni
-          subtitle: "I’m a PhD candidate at [NASP, University of Milan](https://www.nasp.eu/). Currently, I am visiting the [Mannheim Centre for European Social Research (MZES)](https://www.mzes.uni-mannheim.de/). I study how political parties balance positional and valence-based strategies to shape political competition and influence voter perceptions. My research focuses on the use of valence strategies by parties across different contexts and their effects on voters. I also analyze the impact of negative valence shocks, such as political scandals. I use quantitative and computational methods, including text analysis, survey experiments, and large language models. You can read my [CV here](https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf)."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-          - name: Conferences & Talks
-            url: talks/
-          - name: Papers
-            url: papers/
-          - name: Teaching
-            url: teaching/
+      enabled: true
+      title: Stefano Sangiovanni
+      subtitle: "I’m a PhD candidate at [NASP, University of Milan](https://www.nasp.eu/). Currently, I am visiting the [Mannheim Centre for European Social Research (MZES)](https://www.mzes.uni-mannheim.de/). I study how political parties balance positional and valence-based strategies to shape political competition and influence voter perceptions. My research focuses on the use of valence strategies by parties across different contexts and their effects on voters. I also analyze the impact of negative valence shocks, such as political scandals. 
+        I use quantitative and computational methods, including text analysis, survey experiments, and large language models. 
+        You can read my [CV here](https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf)."
+      imageUrl: "picture.jpeg"
+      imageWidth: 160
+      imageHeight: 160
+      buttons:
+        - name: Conferences & Talks
+          url: talks/
+        - name: Papers
+          url: papers/
+        - name: Teaching
+          url: teaching/
     socialIcons:
         - name: CV
           url: https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf
