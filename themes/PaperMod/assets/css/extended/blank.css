@@ -1,5 +1,9 @@
-/*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
-
-Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
-*/
+.profile-subtitle a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .profile-subtitle a:hover {
+    color: #005599;
+  }
+  
