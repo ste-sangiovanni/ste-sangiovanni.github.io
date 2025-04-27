@@ -14,6 +14,7 @@ strong {
 
 p {
     margin-bottom: 1em; 
+    text-align: justify;
 }
 
 .page-header h1 {
