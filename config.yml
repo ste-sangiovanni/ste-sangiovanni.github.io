@@ -29,7 +29,7 @@ menu:
 params:
     description: ""
     author: Stefano Sangiovanni
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-HL9B2WVWME"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
