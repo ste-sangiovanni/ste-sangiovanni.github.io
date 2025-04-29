@@ -63,7 +63,7 @@ params:
         <p>Methodologically, I use <b>quantitative</b> and <b>computational methods</b>, including text analysis, survey experiments, and large language models.</p>
 
         <p>Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research!</p>
-      imageUrl: "picture.jpeg"
+      imageUrl: "picture.png"
       imageWidth: 160
       imageHeight: 160
       buttons:
