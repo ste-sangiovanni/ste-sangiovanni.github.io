@@ -62,10 +62,10 @@ params:
 
         <p>Methodologically, I use <b>quantitative</b> and <b>computational methods</b>, including text analysis, survey experiments, and large language models.</p>
 
-        <p>Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research!</p>
+        <p>Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research... and beyond!</p>
       imageUrl: "picture.png"
-      imageWidth: 250
-      imageHeight: 250
+      imageWidth: 230
+      imageHeight: 230
       buttons:
         - name: Conferences & Talks
           url: talks/

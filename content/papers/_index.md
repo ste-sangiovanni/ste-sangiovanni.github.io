@@ -8,7 +8,7 @@ description: ""
 <ul style="list-style-type: disc; padding-left: 1.5em; line-height: 1.6;">
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong>, Ceron, A. & Invernizzi, G. — <em>“Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments”</em> — <a href="/abstracts/Political_Scandals_Experiment.pdf" style="font-size: 0.85em; font-style: italic;">Abstract</a></li>
   
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Valence Strategies in Electoral Campaigns and Their Effects on Polling Support”</em> — <a href="/abstracts/valence_polls_abstract.pdf" style="font-size: 0.85em; font-style: italic;">Abstract</a></li>
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“When Valence Strategies increase Polling Support: Evidence from Electoral Campaigns”</em> — <a href="/abstracts/valence_polls_abstract.pdf" style="font-size: 0.85em; font-style: italic;">Abstract</a></li>
   
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Economic Performance Indicators and Strategic Valence Choices”</em> </li>
   
