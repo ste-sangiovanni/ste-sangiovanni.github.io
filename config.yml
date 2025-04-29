@@ -64,8 +64,8 @@ params:
 
         <p>Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research!</p>
       imageUrl: "picture.png"
-      imageWidth: 160
-      imageHeight: 160
+      imageWidth: 250
+      imageHeight: 250
       buttons:
         - name: Conferences & Talks
           url: talks/
