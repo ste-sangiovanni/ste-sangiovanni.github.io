@@ -11,7 +11,7 @@ taxonomies:
 menu:
   main:
     - name: CV
-      url: https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf
+      url: https://raw.githubusercontent.com/ste-sangiovanni/-06--CV/main/CV.pdf
       weight: 2
       params:
         target: "_blank"
@@ -74,10 +74,10 @@ params:
         - name: Teaching
           url: teaching/
         - name: CV
-          url: https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf
+          url: https://raw.githubusercontent.com/ste-sangiovanni/-06--CV/main/CV.pdf
     socialIcons:
         - name: CV
-          url: https://github.com/ste-sangiovanni/-06--CV/raw/00e4d1b18ac27b6d139c9d1bef0e01891565f799/CV.pdf
+          url: https://raw.githubusercontent.com/ste-sangiovanni/-06--CV/main/CV.pdf
         - name: Email
           url: mailto:stefano.sangiovanni@unimi.it
         #- name: Zoom
