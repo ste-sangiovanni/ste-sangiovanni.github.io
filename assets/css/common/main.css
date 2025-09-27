@@ -86,4 +86,48 @@ pre:hover .copy-code {
     display: block;
 }
 
+.talks-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 1.5rem 2rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.talks-wrapper h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.talks-wrapper ul {
+    padding-left: 1.8rem;
+    list-style: disc;
+}
+
+.talks-wrapper li {
+    margin-bottom: 1.3rem;
+}
+
+.talks-event {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--content);
+}
+
+.talks-title {
+    display: block;
+    margin-top: 0.1rem;
+    font-style: italic;
+    color: var(--darkcolor);
+}
+
+.talks-meta {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--secondary);
+}
+
   
