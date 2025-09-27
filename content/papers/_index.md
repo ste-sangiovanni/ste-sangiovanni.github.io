@@ -10,7 +10,7 @@ description: ""
   
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“When Valence Strategies increase Polling Support: Evidence from Electoral Campaigns”</em> — <a href="/abstracts/valence_polls_abstract.pdf" style="font-size: 0.85em; font-style: italic;">Abstract</a></li>
   
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Economic Performance Indicators and Strategic Valence Choices”</em> </li>
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Economic Performance Indicators and Strategic Valence Choices”</em> — <a href="/abstracts/valence_economic_abstract.pdf" style="font-size: 0.85em; font-style: italic;">Abstract</a> </li>
   
   <li style="margin-bottom: 1em;">Celebrin, G. & <strong>Sangiovanni, S.</strong> — <em>“Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels”</em> — <a href="/abstracts/celebrin_sangiovanni_abstract.pdf" style="font-size: 0.85em; font-style: italic;">Abstract</a></li>
   
