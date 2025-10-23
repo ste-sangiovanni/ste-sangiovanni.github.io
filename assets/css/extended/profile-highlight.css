@@ -1,0 +1,117 @@
+:root {
+    --profile-accent: #00a1a7;
+    --profile-accent-hover: #008c91;
+    --profile-accent-soft: rgba(0, 161, 167, 0.24);
+}
+
+.dark {
+    --profile-accent: #5be6eb;
+    --profile-accent-hover: #a1f4f5;
+    --profile-accent-soft: rgba(91, 230, 235, 0.35);
+}
+
+.profile .profile_inner {
+    gap: 1.6rem;
+}
+
+.profile .profile_inner img {
+    margin: 0 auto;
+}
+
+.profile .profile-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    width: 100%;
+}
+
+.profile .profile-heading h1 {
+    text-align: center;
+    font-size: clamp(2.05rem, 1.5vw + 1.9rem, 2.6rem);
+    line-height: 1.1;
+    margin: 0;
+}
+
+.profile .profile_inner span {
+    display: block;
+    width: 100%;
+}
+
+.profile .profile-heading .buttons-primary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    max-width: 520px;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+}
+
+.profile .profile-heading .buttons-primary .button {
+    margin: 4px;
+    padding: 2px;
+}
+
+.profile .profile-heading .buttons-primary .button-inner {
+    padding: 4px 12px;
+    font-size: 0.9rem;
+}
+
+.profile .profile-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    max-width: min(680px, 100%);
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.65;
+}
+
+.profile .profile-summary p {
+    margin: 0;
+}
+
+.profile .profile-summary p + p {
+    margin-top: 0.6rem;
+}
+
+.profile .profile-summary .profile-greeting {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.profile .profile-summary .profile-cta {
+    font-weight: 600;
+    text-align: center;
+}
+
+.profile .profile-summary a {
+    position: relative;
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, var(--profile-accent-soft), var(--profile-accent-soft));
+    background-size: 100% 0.25em;
+    background-position: 0 88%;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.profile .profile-summary a:hover,
+.profile .profile-summary a:focus {
+    background-size: 100% 100%;
+    box-shadow: 0 0.2em 0.45em rgba(0, 0, 0, 0.08);
+}
+
+.profile .profile-summary a:hover,
+.profile .profile-summary a:focus {
+    color: var(--profile-accent-hover);
+    box-shadow: 0 0.25em 0.6em rgba(0, 161, 167, 0.25);
+}
+
+.dark .profile .profile-summary a:hover,
+.dark .profile .profile-summary a:focus {
+    box-shadow: 0 0.25em 0.55em rgba(91, 230, 235, 0.35);
+}
