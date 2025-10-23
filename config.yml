@@ -27,7 +27,7 @@ menu:
 
 
 params:
-    description: "Stefano Sangiovanni's professional website showcasing his research on valence politics, political scandals, and quantitative methods."
+    description: "Stefano Sangiovanni – PhD Candidate in Political Science specializing in party politics, applying computational and quantitative methods for political data analysis"
     author: Stefano Sangiovanni
     googleAnalyticsID: "G-HL9B2WVWME"
     DateFormat: "January 2006"
@@ -57,13 +57,13 @@ params:
         <div class="profile-summary">
           <p class="profile-greeting">Hello, this is Stefano! 🌊</p>
 
-          <p>I’m a PhD candidate in Political Science at <a class="profile-link" href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of <a href="https://andreaceron.com/">Prof. Andrea Ceron</a> and <a href="https://giovannainvernizzi.com/">Prof. Giovanna Invernizzi</a>. I recently completed a visiting period at the <b>Mannheim Centre for European Social Research</b> (MZES), and from January 2026 I will join <b>Trinity College Dublin</b> as a visiting PhD Candidate.</p>
+          <p>I’m a PhD candidate in Political Science at <a class="profile-link" href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of Prof. <a class="profile-link" href="https://andreaceron.com/"><b>Andrea Ceron</b></a> and Prof. <a class="profile-link" href="https://giovannainvernizzi.com/"><b>Giovanna Invernizzi</b></a>. I recently completed a visiting fellowship at the Mannheim Centre for European Social Research (MZES), and from January 2026 I will join Trinity College Dublin as a visiting PhD candidate.</p>
 
-          <p>My research focuses on <b>valence politics</b>, analyzing how political parties shape political competition by balancing positional and valence-based strategies in electoral campaigns and parliamentary debates. I also study how negative valence shocks, such as <b>political scandals</b>, affect voter perceptions.</p>
+          <p>My research focuses on <b>political parties</b> and <b>valence politics</b>, analyzing how parties shape political competition by balancing positional and valence-based strategies in electoral campaigns and parliamentary debates. I also study how negative valence shocks, such as <b>political scandals</b>, affect voter perceptions.</p>
 
           <p>Methodologically, I use <b>quantitative</b> and <b>computational methods</b>, including text analysis, survey experiments, and large language models.</p>
 
-          <p class="profile-cta">Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research... and beyond!</p>
+          Don’t hesitate to reach out if you're interested in connecting, collaborating or discussing research... and beyond!
         </div>
       imageUrl: "picture.png"
       imageWidth: 230
