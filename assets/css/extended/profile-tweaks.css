@@ -1,0 +1,25 @@
+.profile .profile-greeting {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profile .profile_inner span {
+    text-align: center;
+}
+
+.profile .buttons {
+    gap: 8px;
+}
+
+@media (min-width: 720px) {
+    .profile .buttons {
+        flex-wrap: nowrap;
+        max-width: none;
+    }
+}
+
+.profile .social-icons {
+    align-self: flex-start;
+    justify-content: flex-start;
+}
