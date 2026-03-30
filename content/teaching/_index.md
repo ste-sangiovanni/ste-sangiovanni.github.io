@@ -28,6 +28,12 @@ description: "Teaching experiences and material"
 
 <ul style="list-style-type: disc; padding-left: 2.25em; line-height: 1.6;">
   <li style="margin-bottom: 1em;">
+    <strong>Public Policy</strong><br>
+    <span style="font-size: 0.85em; font-style: italic;">Bachelor's Degree in Organizational Sciences, University of Milan Bicocca · Prof. Fedra Negri · 2025-26</span><br>
+    <span style="font-size: 0.85em; font-style: italic;">Lecture: “Introduction to Survey Experiments” — <a href="https://github.com/ste-sangiovanni/guest-lecture-regression-survey-experiments">Lecture slides</a></span><br>
+    <span style="font-size: 0.85em; font-style: italic;">Lecture: “Ordinary Least Squares (OLS): Intuition and Interpretation” — <a href="https://github.com/ste-sangiovanni/guest-lecture-regression-survey-experiments">Lecture slides</a></span>
+  </li>
+  <li style="margin-bottom: 1em;">
     <strong>Political Sociology</strong><br>
     <span style="font-size: 0.85em; font-style: italic;">BA in International Sciences and European Institutions, University of Milan · Prof. Vezzoni · 2023-24, 2024-25</span><br>
     <span style="font-size: 0.85em; font-style: italic;">Lecture: “Measuring Democracy: Theory and Practice” (with Giorgio Dolci) — <a href="https://github.com/ste-sangiovanni/democracy_seminar">Lecture slides</a></span>

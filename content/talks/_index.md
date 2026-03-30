@@ -5,6 +5,28 @@ description: "Given talks at conferences and seminars"
 
 <div class="talks-wrapper">
 
+## 2026
+
+- <span class="talks-event">European Consortium of Political Research (ECPR)</span>
+  <span class="talks-title">Scheduled conference presentation</span>
+  <span class="talks-meta">Krakow — 8–11 September 2026 · Scheduled</span>
+
+- <span class="talks-event">European Political Science Society (EPSS)</span>
+  <span class="talks-title">Scheduled conference presentation</span>
+  <span class="talks-meta">ICC Belfast — 18–20 June 2026 · Scheduled</span>
+
+- <span class="talks-event">PolMeth Europe 2026</span>
+  <span class="talks-title">Scheduled conference presentation</span>
+  <span class="talks-meta">Trinity College Dublin — 14–15 May 2026 · Scheduled</span>
+
+- <span class="talks-event">Quantitative and Computational Analysis of Text, Image and Video-as-Data (COMPTEXT)</span>
+  <span class="talks-title">Scheduled conference presentation</span>
+  <span class="talks-meta">Birmingham — 23–25 April 2026 · Scheduled</span>
+
+- <span class="talks-event">Political Institutions, Parties & Public Opinion Seminars</span>
+  <span class="talks-title">“Analyzing Representation and Strategic Party Communication in Parliamentary Debates”</span>
+  <span class="talks-meta">University of Milan — 14 April 2026 · With Julius Diener</span>
+
 ## 2025
 
 - <span class="talks-event">Workshop “Computational Text Analysis in Party Research”</span>
@@ -17,7 +39,7 @@ description: "Given talks at conferences and seminars"
 
 - <span class="talks-event">NASP-POLS PhD Project Colloquium</span>
   <span class="talks-title">“The Strategic Balance Between Positional and Valence Strategies in Party Competition”</span>
-  <span class="talks-meta">University of Milan — 22 September 2025 — <a href="/slides/sangiovanni_pc_sep2025.pdf">Slides</a></span>
+  <span class="talks-meta">University of Milan — 22 September 2025 · Presenter</span>
 
 - <span class="talks-event">SISP 2025 Conference</span>
   <span class="talks-title">Presented x2 papers</span>
@@ -54,4 +76,3 @@ description: "Given talks at conferences and seminars"
   <span class="talks-meta">Collegio Carlo Alberto, Turin — 26–28 June 2024 · Presenter</span>
 
 </div>
-
