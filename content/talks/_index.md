@@ -12,16 +12,16 @@ description: "Given talks at conferences and seminars"
   <span class="talks-meta">Krakow — 8–11 September 2026 · Scheduled</span>
 
 - <span class="talks-event">European Political Science Society (EPSS)</span>
-  <span class="talks-title">Scheduled conference presentation</span>
+  <span class="talks-title">“Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments”</span>
   <span class="talks-meta">ICC Belfast — 18–20 June 2026 · Scheduled</span>
 
 - <span class="talks-event">PolMeth Europe 2026</span>
-  <span class="talks-title">Scheduled conference presentation</span>
+  <span class="talks-title">“Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate”</span>
   <span class="talks-meta">Trinity College Dublin — 14–15 May 2026 · Scheduled</span>
 
 - <span class="talks-event">Quantitative and Computational Analysis of Text, Image and Video-as-Data (COMPTEXT)</span>
-  <span class="talks-title">Scheduled conference presentation</span>
-  <span class="talks-meta">Birmingham — 23–25 April 2026 · Scheduled</span>
+  <span class="talks-title">“Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate”</span>
+  <span class="talks-meta">Birmingham — 23–25 April 2026 · Presenter & Panel Chair</span>
 
 - <span class="talks-event">Political Institutions, Parties & Public Opinion Seminars</span>
   <span class="talks-title">“Analyzing Representation and Strategic Party Communication in Parliamentary Debates”</span>
