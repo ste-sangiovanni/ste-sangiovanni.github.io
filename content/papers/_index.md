@@ -21,13 +21,17 @@ description: ""
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong>, Ceron, A. & Invernizzi, G. — <em>“Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments”</em> </li>
 
-  <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em> 
+  <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em></li> 
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Valence Beyond the Label: Identifying and Measuring Evaluative Competition in Party Politics”</em></li>
   
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate”</em></li>
-  
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Feeding the Cycle of Negativity: Exploring the Media's Influence on the Tone of Electoral Campaigns”</em></li>
+
+## Work In Progress
+
+<li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“Seeing the Populist Through Populist Eyes: Citizen Populism and the Image of the Populist Politician”</em></li> 
+
+<li style="margin-bottom: 1em;">Ruggeri, A., Masullo, J. & <strong>Sangiovanni, S.</strong> - <em>“Attitudes toward Political Violence in Italy: A Survey Experimental Approach”</em></li> 
 
 </ul>
 
