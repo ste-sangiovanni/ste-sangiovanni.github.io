@@ -27,7 +27,7 @@ description: ""
   
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate”</em></li>
 
-## Work In Progress
+## Selected Work In Progress
 
 <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“Seeing the Populist Through Populist Eyes: Citizen Populism and the Image of the Populist Politician”</em></li> 
 
