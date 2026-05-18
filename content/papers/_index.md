@@ -11,7 +11,9 @@ description: ""
 ## Under Review
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Who Cares About Valence Issues? Issue Priorities Among Voters
-  of Valence Populist Parties”</em> 
+  of Valence Populist Parties”</em></li>
+
+  <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em></li> 
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> & Celebrin, G. — <em>“Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels”</em></li>
 
@@ -20,8 +22,6 @@ description: ""
 ## Working Papers / Dissertation Chapters (Manuscript Ready)
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong>, Ceron, A. & Invernizzi, G. — <em>“Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments”</em> </li>
-
-  <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em></li> 
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Valence Beyond the Label: Identifying and Measuring Evaluative Competition in Party Politics”</em></li>
   
