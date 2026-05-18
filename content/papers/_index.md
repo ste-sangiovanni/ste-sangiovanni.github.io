@@ -10,8 +10,7 @@ description: ""
 
 ## Under Review
 
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Who Cares About Valence Issues? Issue Priorities Among Voters
-  of Valence Populist Parties”</em></li>
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Who Cares About Valence Issues? Issue Priorities Among Voters of Valence Populist Parties”</em></li>
 
   <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em></li> 
 
