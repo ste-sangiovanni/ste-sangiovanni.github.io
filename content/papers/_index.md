@@ -28,6 +28,8 @@ description: ""
 
 ## Selected Work In Progress
 
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Historical Anchoring and Ideological Over-Coherence in LLM-Based Synthetic Respondents”</em></li>
+
 <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“Seeing the Populist Through Populist Eyes: Citizen Populism and the Image of the Populist Politician”</em></li> 
 
 <li style="margin-bottom: 1em;">Ruggeri, A., Masullo, J. & <strong>Sangiovanni, S.</strong> - <em>“Attitudes toward Political Violence in Italy: A Survey Experimental Approach”</em></li> 
