@@ -6,11 +6,11 @@ description: ""
 
 ## Revise & Resubmit
 
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Who Cares About Valence Issues? Issue Priorities Among Voters of Valence Populist Parties”</em> · Electoral Studies</li> 
+
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“When Valence Strategies increase Polling Support: Evidence from Electoral Campaigns”</em> · Journal of Elections, Public Opinion and Parties </li> 
 
 ## Under Review
-
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Who Cares About Valence Issues? Issue Priorities Among Voters of Valence Populist Parties”</em></li>
 
   <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em></li> 
 
