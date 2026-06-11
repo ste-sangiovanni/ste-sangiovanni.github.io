@@ -18,8 +18,8 @@ menu:
     - name: Conferences & Talks
       url: talks/
       weight: 3
-    - name: Papers
-      url: papers/
+    - name: Research
+      url: research/
       weight: 4
     - name: Teaching
       url: teaching/
@@ -42,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["talks", "papers", "teaching"]
+    MainSections: ["talks", "research", "teaching"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -71,8 +71,8 @@ params:
           url: https://raw.githubusercontent.com/ste-sangiovanni/-06--CV/main/CV.pdf
         - name: Conferences & Talks
           url: talks/
-        - name: Papers
-          url: papers/
+        - name: Research
+          url: research/
         - name: Teaching
           url: teaching/
     socialIcons:

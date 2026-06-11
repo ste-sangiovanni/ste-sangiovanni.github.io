@@ -1,5 +1,5 @@
 ---
-title: "Papers"
+title: "Research"
 description: ""
 ---
 <ul style="list-style-type: disc; padding-left: 1.5em; line-height: 1.6;">
@@ -35,8 +35,3 @@ description: ""
 <li style="margin-bottom: 1em;">Ruggeri, A., Masullo, J. & <strong>Sangiovanni, S.</strong> - <em>“Attitudes toward Political Violence in Italy: A Survey Experimental Approach”</em></li> 
 
 </ul>
-
-
-
-
-
