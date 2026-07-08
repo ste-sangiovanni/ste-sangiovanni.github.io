@@ -7,6 +7,14 @@ description: "Teaching experiences and material"
 
 <ul style="list-style-type: disc; padding-left: 2.25em; line-height: 1.6;">
   <li style="margin-bottom: 1em;">
+    <strong>Data Science for Organisations</strong><br>
+    <span style="font-size: 0.85em; font-style: italic;">Applied turorials in R · University of Milan · Prof. Cremonini · 2026-2027</span>
+  </li>
+    <li style="margin-bottom: 1em;">
+    <strong>Data Visualization for Management</strong><br>
+    <span style="font-size: 0.85em; font-style: italic;">Applied turorials in Python · University of Milan · Prof. Cremonini · 2026-2027</span>
+  </li>
+  <li style="margin-bottom: 1em;">
     <strong>Bachelor’s Degree Course in Political Science</strong><br>
     <span style="font-size: 0.85em; font-style: italic;">University of Milan · Prof. Ceron · 2023–2026</span>
   </li>

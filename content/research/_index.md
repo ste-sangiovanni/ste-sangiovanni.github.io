@@ -14,19 +14,21 @@ description: ""
 
   <li style="margin-bottom: 1em;">Ceron, A., Negri, F. & <strong>Sangiovanni, S.</strong> - <em>“What does it mean? A survey experiment on the efficacy of explaining the means to pursue a policy proposal”</em></li> 
 
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Valence Beyond the Label: Identifying and Measuring Evaluative Competition in Party Politics”</em></li>
+
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate”</em></li>
+
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> & Celebrin, G. — <em>“Generational Perspectives on Democracy: Migrants' Satisfaction Across National and European Levels”</em></li>
 
   <li style="margin-bottom: 1em;">Taddei, F. & <strong>Sangiovanni, S.</strong>  — <em>“Just a Football match? Italian Terraces’ Banners Analysis.”</em></li>
 
 ## Working Papers / Dissertation Chapters (Manuscript Ready)
 
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong>, Ceron, A. & Invernizzi, G. — <em>“Investigating Political Scandals: Combining Conjoint Analysis and Audio-Based Experiments”</em> </li>
-
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Valence Beyond the Label: Identifying and Measuring Evaluative Competition in Party Politics”</em></li>
-  
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Clarity of Responsibility and Macroeconomic Accountability in Parliamentary Debate”</em></li>
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong>, Ceron, A. & Invernizzi, G. — <em>“Accountability Among Allies: Intra-Party Competition and the Electoral Cost of Scandal."</em> </li>
 
 ## Selected Work In Progress
+
+  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong>, Ceron, A. & Invernizzi, G. — <em>“Scandal Accusations and the Politics of Voice Tone: Evidence from an Audio Experiment."</em> </li>
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Historical Anchoring and Ideological Over-Coherence in LLM-Based Synthetic Respondents”</em></li>
 
