@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IneqInvest on-site interview</title>
+  <style>
+    :root {
+      --teal: #006d77;
+      --teal-2: #168b95;
+      --ink: #172b35;
+      --muted: #314753;
+      --border: #c5d8de;
+      --rule: #5eb1ba;
+      --pale-blue: #edf6fb;
+      --pale-teal: #e7f3f1;
+      --white: #fff;
+      --scale: 1;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #e8edef;
+      color: var(--ink);
+    }
+
+    button { font: inherit; }
+
+    #stage {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 1600px;
+      height: 900px;
+      transform: translate(-50%, -50%) scale(var(--scale));
+      transform-origin: center;
+      background: var(--white);
+      box-shadow: 0 18px 60px rgba(20, 46, 55, .18);
+      overflow: hidden;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: none;
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .slide.active { display: block; }
+
+    .title {
+      position: absolute;
+      left: 40px;
+      top: 24px;
+      margin: 0;
+      color: var(--teal);
+      font-size: 43px;
+      line-height: 1.08;
+      letter-spacing: -.8px;
+      font-weight: 750;
+    }
+
+    .section-label {
+      position: absolute;
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+      color: var(--teal);
+      font-size: 19px;
+      line-height: 1.18;
+      font-weight: 750;
+      text-transform: uppercase;
+      z-index: 4;
+    }
+
+    .section-label .number {
+      display: grid;
+      place-items: center;
+      flex: 0 0 40px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      color: var(--white);
+      background: var(--teal);
+      font-size: 23px;
+      line-height: 1;
+    }
+
+    .rule {
+      position: absolute;
+      left: 48px;
+      width: 1504px;
+      height: 1.5px;
+      background: var(--rule);
+      z-index: 1;
+    }
+
+    .card {
+      position: absolute;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      background: var(--white);
+      overflow: hidden;
+      z-index: 3;
+    }
+
+    .card-icon {
+      position: absolute;
+      color: var(--teal);
+    }
+
+    .icon {
+      display: block;
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .card-title {
+      position: absolute;
+      margin: 0;
+      color: var(--ink);
+      font-size: 17px;
+      line-height: 1.18;
+      font-weight: 750;
+    }
+
+    .card ul {
+      position: absolute;
+      margin: 0;
+      padding-left: 16px;
+      font-size: 14.5px;
+      line-height: 1.35;
+      color: var(--ink);
+    }
+
+    .card li + li { margin-top: 3px; }
+
+    .top-card {
+      top: 146px;
+      width: 214px;
+      height: 204px;
+    }
+
+    .top-card .card-icon {
+      left: 18px;
+      top: 24px;
+      width: 46px;
+      height: 46px;
+    }
+
+    .top-card .card-title {
+      left: 76px;
+      top: 26px;
+      right: 12px;
+      min-height: 64px;
+    }
+
+    .top-card ul {
+      left: 17px;
+      right: 17px;
+      top: 102px;
+    }
+
+    .top-card.scale-card ul {
+      font-size: 12.7px;
+      line-height: 1.24;
+    }
+
+    .top-card.validated-card ul {
+      font-size: 14px;
+    }
+
+    .wide-card {
+      left: 432.5px;
+      width: 735px;
+    }
+
+    .wide-card .card-icon {
+      left: 92px;
+      width: 60px;
+      height: 60px;
+    }
+
+    .wide-card .card-title {
+      left: 255px;
+      right: 35px;
+      font-size: 22px;
+      line-height: 1.15;
+    }
+
+    .wide-card ul {
+      left: 255px;
+      right: 35px;
+      font-size: 16.5px;
+      line-height: 1.35;
+    }
+
+    #public-attitudes {
+      top: 385px;
+      height: 130px;
+      background: var(--pale-blue);
+      border-color: #73afc3;
+    }
+
+    #public-attitudes .card-icon { top: 30px; }
+    #public-attitudes .card-title { top: 16px; }
+    #public-attitudes ul { top: 49px; }
+
+    #actor-voter {
+      top: 540px;
+      height: 109px;
+      background: var(--pale-teal);
+      border-color: var(--teal-2);
+      border-width: 1.8px;
+    }
+
+    #actor-voter .card-icon {
+      left: 82px;
+      top: 23px;
+      width: 60px;
+      height: 60px;
+    }
+
+    #actor-voter .icon {
+      stroke-width: 1.7;
+    }
+
+    #actor-voter .card-title {
+      left: 225px;
+      top: 15px;
+    }
+
+    #actor-voter ul {
+      left: 225px;
+      top: 49px;
+    }
+
+    .analysis-card {
+      top: 700px;
+      width: 350px;
+      height: 136px;
+    }
+
+    .analysis-card .card-icon {
+      left: 25px;
+      top: 36px;
+      width: 58px;
+      height: 58px;
+    }
+
+    .analysis-card .card-title {
+      left: 110px;
+      right: 15px;
+      top: 17px;
+      color: var(--teal);
+      font-size: 20px;
+    }
+
+    .analysis-card ul {
+      left: 110px;
+      right: 15px;
+      top: 52px;
+      font-size: 14px;
+      line-height: 1.32;
+    }
+
+    .connections {
+      position: absolute;
+      inset: 0;
+      width: 1600px;
+      height: 900px;
+      z-index: 2;
+      pointer-events: none;
+      overflow: visible;
+    }
+
+    .connection {
+      fill: none;
+      stroke: var(--teal);
+      stroke-width: 3;
+      stroke-linecap: square;
+      stroke-linejoin: round;
+      marker-end: url(#arrowhead);
+    }
+
+    .branch-line {
+      fill: none;
+      stroke: var(--teal);
+      stroke-width: 3;
+      stroke-linecap: square;
+      stroke-linejoin: round;
+    }
+
+    .compact-arrow {
+      marker-end: url(#arrowhead-compact);
+    }
+
+    #pipeline .footer {
+      border-top: 0;
+    }
+
+    .footer {
+      position: absolute;
+      left: 42px;
+      right: 42px;
+      top: 850px;
+      height: 50px;
+      border-top: 1.5px solid var(--rule);
+      color: var(--ink);
+      font-size: 15.5px;
+      z-index: 5;
+    }
+
+    .footer .left {
+      position: absolute;
+      left: 0;
+      top: 14px;
+    }
+
+    .footer .page {
+      position: absolute;
+      right: 0;
+      top: 14px;
+    }
+
+    .reveal-1, .reveal-2, .reveal-3 {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    #pipeline.show-1 .reveal-1,
+    #pipeline.show-2 .reveal-1,
+    #pipeline.show-3 .reveal-1,
+    #pipeline.show-2 .reveal-2,
+    #pipeline.show-3 .reveal-2,
+    #pipeline.show-3 .reveal-3,
+    #research.show-1 .premise-1,
+    #research.show-2 .premise-2,
+    #research.show-3 .rq-header,
+    #research.show-4 .rq-1 .rq-detail,
+    #research.show-5 .rq-2 .rq-detail,
+    #research.show-6 .rq-3 .rq-detail {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Research ideas */
+    #research {
+      font-family:
+        "Avenir Next",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+    }
+
+    #research .title {
+      top: 32px;
+      width: 1480px;
+      font-size: 35px;
+      line-height: 1.12;
+      letter-spacing: -.5px;
+      white-space: nowrap;
+    }
+
+.research-premise {
+  position: absolute;
+  left: 50%;
+  width: 1300px;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-50%);
+  color: var(--muted);
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 650;
+  letter-spacing: -0.15px;
+}
+
+.research-premise strong {
+  color: var(--teal);
+  font-weight: 750;
+}
+
+.premise-1 { top: 100px; }
+.premise-2 { top: 145px; }
+
+.rq-card {
+  position: absolute;
+  top: 245px;
+  width: 460px;
+  height: 590px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+    .rq-card .head {
+      height: auto;
+      padding: 0;
+      color: #9b3f45;
+      background: transparent !important;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 750;
+      letter-spacing: .2px;
+    }
+
+    .rq-card h2 {
+      margin: 24px 0 0;
+      min-height: 100px;
+      color: var(--teal);
+      font-size: 27px;
+      line-height: 1.22;
+    }
+
+    .rq-card h2::after {
+      content: "";
+      display: block;
+      width: 64px;
+      height: 3px;
+      margin-top: 18px;
+      background: #9b3f45;
+      border-radius: 2px;
+    }
+
+    .rq-card .body {
+      margin: 20px 0 0;
+      min-height: 135px;
+      font-size: 19px;
+      line-height: 1.42;
+    }
+
+    .rq-card .cue-rule {
+      display: none;
+    }
+
+    .rq-card .cues {
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+      color: #65737b;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .rq-card .cues li {
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .rq-card .cues li + li {
+      margin-top: 12px;
+    }
+
+    .rq-card .cues li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--teal);
+      font-weight: 700;
+    }
+
+    .rq-1 { left: 70px; }
+    .rq-2 { left: 585px; }
+    .rq-3 { left: 1100px; }
+
+    .research-premise,
+    .rq-header,
+    .rq-detail {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    /* Backup slide */
+    #backup .title {
+      top: 30px;
+      font-size: 41px;
+    }
+
+    .backup-summary {
+      position: absolute;
+      top: 115px;
+      width: 450px;
+      height: 92px;
+      padding: 15px 20px;
+      text-align: center;
+      border: 1.5px solid var(--teal-2);
+      border-radius: 12px;
+      background: var(--pale-teal);
+    }
+
+    .backup-summary h2 {
+      margin: 0;
+      color: var(--teal);
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    .backup-summary p {
+      margin: 8px 0 0;
+      font-size: 14px;
+    }
+
+    .method-node {
+      position: absolute;
+      width: 240px;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      background: var(--white);
+      text-align: center;
+      z-index: 3;
+    }
+
+    .method-node.upper {
+      top: 290px;
+      height: 160px;
+    }
+
+    .method-node.lower {
+      top: 555px;
+      height: 145px;
+    }
+
+    .method-node h3 {
+      margin: 15px 12px 0;
+      min-height: 46px;
+      font-size: 17.5px;
+      line-height: 1.2;
+    }
+
+    .method-node p {
+      margin: 13px 12px 0;
+      color: var(--muted);
+      font-size: 13.5px;
+      line-height: 1.25;
+    }
+
+    .backup-label {
+      position: absolute;
+      left: 45px;
+      top: 805px;
+      color: var(--teal);
+      font-size: 15px;
+      font-weight: 750;
+    }
+
+    @media print {
+      html, body {
+        width: auto;
+        height: auto;
+        overflow: visible;
+        background: var(--white);
+      }
+      #stage {
+        position: static;
+        width: 1600px;
+        height: auto;
+        transform: none;
+        box-shadow: none;
+      }
+      .slide {
+        position: relative;
+        display: block !important;
+        width: 1600px;
+        height: 900px;
+        page-break-after: always;
+      }
+      .reveal-1, .reveal-2, .reveal-3, .research-premise, .rq-header, .rq-detail {
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+      @page { size: 16in 9in; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <defs>
+      <symbol id="i-files" viewBox="0 0 24 24">
+        <path d="M14 2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2Z"/>
+        <path d="M14 2v5h5"/><path d="M9 22h9a2 2 0 0 0 2-2V7l-5-5"/>
+      </symbol>
+      <symbol id="i-search" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>
+      </symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+        <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+      </symbol>
+      <symbol id="i-users" viewBox="0 0 24 24">
+        <circle cx="9" cy="8" r="4"/><path d="M2 21v-2a7 7 0 0 1 14 0v2"/>
+        <circle cx="17" cy="9" r="3"/><path d="M17 15a6 6 0 0 1 5 6"/>
+      </symbol>
+      <symbol id="i-bars" viewBox="0 0 24 24">
+        <path d="M4 21V16"/><path d="M10 21V11"/><path d="M16 21V6"/><path d="M22 21V2"/>
+      </symbol>
+      <symbol id="i-user-check" viewBox="0 0 24 24">
+        <circle cx="9" cy="7" r="4"/><path d="M2 21v-2a7 7 0 0 1 14 0v2"/>
+        <path d="m16 11 2 2 4-5"/>
+      </symbol>
+      <symbol id="i-crowd" viewBox="0 0 24 24">
+        <circle cx="12" cy="7" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/>
+        <circle cx="4" cy="10" r="2.5"/><path d="M0 20v-1a5 5 0 0 1 5-5"/>
+        <circle cx="20" cy="10" r="2.5"/><path d="M24 20v-1a5 5 0 0 0-5-5"/>
+      </symbol>
+      <symbol id="i-alignment" viewBox="0 0 28 24">
+        <circle cx="6" cy="9" r="2.5"/>
+        <path d="M1.5 21v-4a4.5 4.5 0 0 1 9 0v4"/>
+        <circle cx="22" cy="9" r="2.5"/>
+        <path d="M17.5 21v-4a4.5 4.5 0 0 1 9 0v4"/>
+        <path d="M11 12h6"/>
+        <path d="m12.5 10.25-1.75 1.75 1.75 1.75"/>
+        <path d="m15.5 10.25 1.75 1.75-1.75 1.75"/>
+      </symbol>
+      <symbol id="i-supply" viewBox="0 0 24 24">
+        <circle cx="12" cy="5" r="3"/><path d="M8 20V11a4 4 0 0 1 8 0v9"/>
+        <circle cx="4" cy="9" r="2.3"/><path d="M1 20v-6a3 3 0 0 1 6 0v6"/>
+        <circle cx="20" cy="9" r="2.3"/><path d="M17 20v-6a3 3 0 0 1 6 0v6"/><path d="M0 22h24"/>
+      </symbol>
+      <symbol id="i-refresh" viewBox="0 0 24 24">
+        <path d="M20 7a8 8 0 0 0-14-2L3 8"/><path d="M3 3v5h5"/>
+        <path d="M4 17a8 8 0 0 0 14 2l3-3"/><path d="M21 21v-5h-5"/>
+      </symbol>
+      <symbol id="i-landmark" viewBox="0 0 24 24">
+        <path d="m3 9 9-6 9 6"/><path d="M5 10h14"/><path d="M6 10v8"/><path d="M10 10v8"/>
+        <path d="M14 10v8"/><path d="M18 10v8"/><path d="M4 18h16"/><path d="M3 22h18"/>
+      </symbol>
+      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L8,4 L0,8 Z" fill="#006d77"/>
+      </marker>
+      <marker id="arrowhead-compact" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="userSpaceOnUse">
+        <path d="M0,0 L13,7 L0,14 Z" fill="#006d77"/>
+      </marker>
+    </defs>
+  </svg>
+
+  <main id="stage" aria-live="polite">
+    <section id="pipeline" class="slide active" data-reveal="0" aria-label="Project pipeline">
+      <h1 class="title" data-editable>Setting up the IneqInvest project pipeline</h1>
+
+      <div class="section-label reveal-1" style="left:40px;top:93px;width:340px">
+        <span class="number">1</span>
+        <span data-editable>MEASURING COLLECTIVE<br>ACTOR POSITIONS</span>
+      </div>
+
+      <article class="card top-card reveal-1" style="left:82px">
+        <div class="card-icon"><svg class="icon"><use href="#i-files"/></svg></div>
+        <h2 class="card-title" data-editable>Actor<br>corpora</h2>
+        <ul data-editable>
+          <li>parties, groups, movements</li>
+          <li>debates, documents,<br>campaigns, news</li>
+        </ul>
+      </article>
+
+      <article class="card top-card reveal-1" style="left:330px">
+        <div class="card-icon"><svg class="icon"><use href="#i-search"/></svg></div>
+        <h2 class="card-title" data-editable>Identify<br>LTIP claims</h2>
+        <ul data-editable>
+          <li>deterministic filter</li>
+          <li>LLM-assisted screening</li>
+          <li>Group mention detection</li>
+        </ul>
+      </article>
+
+      <article class="card top-card reveal-1" style="left:578px">
+        <div class="card-icon"><svg class="icon"><use href="#i-grid"/></svg></div>
+        <h2 class="card-title" data-editable>Claim-level<br>framework</h2>
+        <ul data-editable>
+          <li>goals, instruments,<br>financing</li>
+          <li>timing, costs, beneficiaries</li>
+        </ul>
+      </article>
+
+      <article class="card top-card reveal-1" style="left:826px">
+        <div class="card-icon"><svg class="icon"><use href="#i-users"/></svg></div>
+        <h2 class="card-title" data-editable>Human-coded<br>benchmark</h2>
+        <ul data-editable>
+          <li>agreement checks</li>
+          <li>category refinement</li>
+        </ul>
+      </article>
+
+      <article class="card top-card scale-card reveal-1" style="left:1074px">
+        <div class="card-icon"><svg class="icon"><use href="#i-bars"/></svg></div>
+        <h2 class="card-title" data-editable>Scale<br>validated<br>measures</h2>
+        <ul data-editable>
+          <li>dictionaries and embeddings</li>
+          <li>LLM prompting and fine tuning</li>
+          <li>cross-method comparison</li>
+        </ul>
+      </article>
+
+      <article class="card top-card validated-card reveal-1" style="left:1322px">
+        <div class="card-icon"><svg class="icon"><use href="#i-user-check"/></svg></div>
+        <h2 class="card-title" data-editable>Validated<br>actor<br>measures</h2>
+        <ul data-editable>
+          <li>held-out performance</li>
+          <li>cross-method robustness</li>
+        </ul>
+      </article>
+
+      <div class="section-label reveal-2" style="left:40px;top:392px;width:350px">
+        <span class="number">2</span>
+        <span data-editable>LINKING ACTORS,<br>CITIZENS, AND POLICIES</span>
+      </div>
+
+      <article id="public-attitudes" class="card wide-card reveal-2">
+        <div class="card-icon"><svg class="icon"><use href="#i-crowd"/></svg></div>
+        <h2 class="card-title" data-editable>Public-attitude evidence</h2>
+        <ul data-editable>
+          <li>Surveys (Inequality Barometer)</li>
+          <li>Experiments</li>
+          <li>Administrative data</li>
+        </ul>
+      </article>
+
+      <article id="actor-voter" class="card wide-card reveal-2">
+        <div class="card-icon"><svg class="icon"><use href="#i-alignment"/></svg></div>
+        <h2 class="card-title" data-editable>Actor–voter alignment</h2>
+        <ul data-editable>
+          <li>matched goals, instruments, trade-offs</li>
+          <li>by party support and socioeconomic group</li>
+        </ul>
+      </article>
+
+      <div class="section-label reveal-3" style="left:40px;top:693px;width:210px">
+        <span class="number">3</span>
+        <span data-editable>PROJECT<br>ANALYSES</span>
+      </div>
+
+      <article class="card analysis-card reveal-3" style="left:237px">
+        <div class="card-icon"><svg class="icon"><use href="#i-supply"/></svg></div>
+        <h2 class="card-title" data-editable>Political supply</h2>
+        <ul data-editable>
+          <li>goals, means, and trade-offs</li>
+          <li>actors, coalitions, and timing</li>
+          <li>interest groups and social movements
+        </ul>
+      </article>
+
+      <article class="card analysis-card reveal-3" style="left:625px">
+        <div class="card-icon"><svg class="icon"><use href="#i-refresh"/></svg></div>
+        <h2 class="card-title" data-editable>Preference dynamics</h2>
+        <ul data-editable>
+          <li>responsiveness = reinforce inequalities?</li>
+          <li>how can we increase support?</li>
+        </ul>
+      </article>
+
+      <article class="card analysis-card reveal-3" style="left:1013px">
+        <div class="card-icon"><svg class="icon"><use href="#i-landmark"/></svg></div>
+        <h2 class="card-title" data-editable>Policy outputs</h2>
+        <ul data-editable>
+          <li>spending and reform trajectories</li>
+          <li>conditions for LTIP adoption</li>
+        </ul>
+      </article>
+
+      <svg class="connections" viewBox="0 0 1600 900" aria-hidden="true">
+        <g class="reveal-1">
+          <path class="connection compact-arrow" d="M296 245 H329"/>
+          <path class="connection compact-arrow" d="M544 245 H578"/>
+          <path class="connection compact-arrow" d="M792 245 H826"/>
+          <path class="connection compact-arrow" d="M1040 245 H1073"/>
+          <path class="connection compact-arrow" d="M1288 245 H1321"/>
+        </g>
+
+        <g class="reveal-2">
+          <path class="connection compact-arrow" d="M800 515 V540"/>
+          <path class="connection" d="M1536 245 H1565 V594.5 H1172"/>
+        </g>
+
+        <g class="reveal-3">
+          <path class="branch-line" d="M800 649 V674"/>
+          <path class="branch-line" d="M412 674 H1188"/>
+          <path class="connection compact-arrow" d="M412 674 V700"/>
+          <path class="connection compact-arrow" d="M800 674 V700"/>
+          <path class="connection compact-arrow" d="M1188 674 V700"/>
+        </g>
+      </svg>
+
+      <footer class="footer">
+        <span class="left" data-editable>Stefano Sangiovanni&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;IneqInvest interview</span>
+        <span class="page">1/2</span>
+      </footer>
+    </section>
+
+    <section id="research" class="slide" data-reveal="0" aria-label="Research ideas">
+      <h1 class="title" data-editable>Three research trajectories</h1>
+
+      <p class="research-premise premise-1" data-editable>Citizens do not confront long-term policy choices from the same socioeconomic position.</p>
+      <p class="research-premise premise-2" data-editable>Shared future goals conceal conflict over means, representation, and delivery.</p>
+
+
+<article class="rq-card rq-1">
+  <div class="head rq-header" data-editable>1&nbsp;&nbsp; ACTOR COMPETITION</div>
+
+  <h2 class="rq-header" data-editable>
+    When does future rhetoric<br>become policy commitment?
+  </h2>
+
+<p class="body rq-detail" data-editable>
+  When is future-oriented language coupled with substantive policy
+  instruments or tradeoffs, and when does it function mainly as a valence-based claim?
+</p>
+
+  <div class="cue-rule rq-detail"></div>
+
+  <ul class="cues rq-detail" data-editable>
+    <li><b>Future rhetoric</b> versus concrete commitments</li>
+    <li><b>Policy-based valence</b> and positional conflict</li>
+    <li>Who commits, when, and under which political conditions?</li>
+  </ul>
+</article>
+
+
+      <article class="rq-card rq-2">
+        <div class="head rq-header" data-editable>2&nbsp;&nbsp; UNEQUAL REPRESENTATION</div>
+        <h2 class="rq-header" data-editable>Whose future is<br>represented?</h2>
+        <p class="body rq-detail" data-editable>Which citizens’ long-term priorities are closest to collective-actor positions and which are left out?</p>
+        <div class="cue-rule rq-detail"></div>
+        <ul class="cues rq-detail" data-editable>
+  <li>Compare <b>party claims</b> and <b>group preferences</b></li>
+  <li><b>Unequal proximity</b> versus <b>unequal responsiveness</b></li>
+  <li>Whose priorities shape political supply?</li>
+        </ul>
+      </article>
+
+      <article class="rq-card rq-3">
+        <div class="head rq-header" data-editable>3&nbsp;&nbsp; RESHAPING SUPPORT</div>
+        <h2 class="rq-header" data-editable>Can affordable, credible policies broaden support?</h2>
+        <p class="body rq-detail" data-editable>Can policy design address both the affordability of present costs and the credibility of future benefits?</p>
+        <div class="cue-rule rq-detail"></div>
+        <ul class="cues rq-detail" data-editable>
+
+  <li>Two barriers: <b>affordability</b> and <b>credibility</b></li>
+  <li>Redistribution, explanations and delivery safeguards</li>
+  <li>Test both barriers independently</li>
+        </ul>
+      </article>
+
+      <footer class="footer">
+        <span class="left" data-editable>Stefano Sangiovanni&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;IneqInvest interview</span>
+        <span class="page">2/2</span>
+      </footer>
+    </section>
+
+    <section id="backup" class="slide" aria-label="Backup methodological pipeline">
+      <h1 class="title" data-editable>How I would identify and analyse policy goals</h1>
+
+      <article class="backup-summary" style="left:55px">
+        <h2 data-editable>1. Build actor corpora</h2>
+        <p data-editable>debates, campaigns, group documents, news</p>
+      </article>
+      <article class="backup-summary" style="left:545px">
+        <h2 data-editable>2. Code political claims</h2>
+        <p data-editable>goals, instruments, timing, distribution</p>
+      </article>
+      <article class="backup-summary" style="left:1035px">
+        <h2 data-editable>3. Analyse and validate</h2>
+        <p data-editable>validated measures, voter alignment, outputs</p>
+      </article>
+
+      <article class="method-node upper" style="left:80px">
+        <h3 data-editable>Parliamentary<br>debates</h3>
+        <p data-editable>party, speaker, bill,<br>debate metadata</p>
+      </article>
+      <article class="method-node upper" style="left:380px">
+        <h3 data-editable>Select LTIP<br>agenda items</h3>
+        <p data-editable>deterministic filter or<br>LLM-assisted screening</p>
+      </article>
+      <article class="method-node upper" style="left:680px">
+        <h3 data-editable>Claim-level<br>codebook</h3>
+        <p data-editable>goal, instrument, financing,<br>time, distribution, credibility</p>
+      </article>
+      <article class="method-node upper" style="left:980px">
+        <h3 data-editable>Human-coded<br>benchmark</h3>
+        <p data-editable>agreement checks and<br>category refinement</p>
+      </article>
+      <article class="method-node upper" style="left:1280px">
+        <h3 data-editable>Scale validated<br>measures</h3>
+        <p data-editable>dictionaries and embeddings;<br>LLM prompting or fine-tuning<br>(adapters)</p>
+      </article>
+
+      <article class="method-node lower" style="left:680px">
+        <h3 data-editable>Voter<br>alignment</h3>
+        <p data-editable>by group, constituency,<br>policy domain</p>
+      </article>
+      <article class="method-node lower" style="left:980px">
+        <h3 data-editable>Validation</h3>
+        <p data-editable>held-out test, model<br>comparison, robustness</p>
+      </article>
+      <article class="method-node lower" style="left:1280px">
+        <h3 data-editable>Actor-goal<br>measures</h3>
+        <p data-editable>party family, gov./opp.,<br>policy outputs</p>
+      </article>
+
+      <svg class="connections" viewBox="0 0 1600 900" aria-hidden="true">
+        <path class="connection" d="M320 370 H376"/>
+        <path class="connection" d="M620 370 H676"/>
+        <path class="connection" d="M920 370 H976"/>
+        <path class="connection" d="M1220 370 H1276"/>
+        <path class="connection" d="M1520 370 H1554 V627.5 H1524"/>
+        <path class="connection" d="M1280 627.5 H1224"/>
+        <path class="connection" d="M980 627.5 H924"/>
+      </svg>
+
+      <div class="backup-label">BACKUP</div>
+      <footer class="footer">
+        <span class="left" data-editable>Stefano Sangiovanni&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;IneqInvest interview</span>
+        <span class="page">Appendix</span>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    (() => {
+      const states = [
+        ["pipeline", 0],
+        ["pipeline", 1],
+        ["pipeline", 2],
+        ["pipeline", 3],
+        ["research", 0],
+        ["research", 1],
+        ["research", 2],
+        ["research", 3],
+        ["research", 4],
+        ["research", 5],
+        ["research", 6],
+        ["backup", 1]
+      ];
+      let stateIndex = 0;
+
+      const slides = [...document.querySelectorAll(".slide")];
+
+      function fit() {
+        const scale = Math.min(window.innerWidth / 1600, window.innerHeight / 900);
+        document.documentElement.style.setProperty("--scale", String(scale));
+      }
+
+      function render() {
+        const [slideId, reveal] = states[stateIndex];
+        slides.forEach(slide => {
+          const isActive = slide.id === slideId;
+          slide.classList.toggle("active", isActive);
+          slide.classList.toggle("show-1", isActive && reveal >= 1);
+          slide.classList.toggle("show-2", isActive && reveal >= 2);
+          slide.classList.toggle("show-3", isActive && reveal >= 3);
+          slide.classList.toggle("show-4", isActive && reveal >= 4);
+          slide.classList.toggle("show-5", isActive && reveal >= 5);
+          slide.classList.toggle("show-6", isActive && reveal >= 6);
+        });
+        const active = document.getElementById(slideId);
+        active.dataset.reveal = String(reveal);
+      }
+
+      function next() {
+        if (stateIndex >= states.length - 1) return;
+        stateIndex += 1;
+        render();
+      }
+
+      function previous() {
+        if (stateIndex <= 0) return;
+        stateIndex -= 1;
+        render();
+      }
+
+      window.addEventListener("resize", fit);
+
+document.addEventListener("keydown", event => {
+
+  // Fullscreen toggle
+  if (event.key === "f" || event.key === "F") {
+    event.preventDefault();
+
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+    return;
+  }
+
+  // Next slide
+  if (event.key === "ArrowRight" || event.key === " " || event.key === "PageDown") {
+    event.preventDefault();
+    next();
+  }
+
+  // Previous slide
+  else if (event.key === "ArrowLeft" || event.key === "PageUp") {
+    event.preventDefault();
+    previous();
+  }
+
+});
+
+      fit();
+      render();
+    })();
+  </script>
+</body>
+</html>
