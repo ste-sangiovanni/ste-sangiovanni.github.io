@@ -4,11 +4,13 @@ description: ""
 ---
 <ul style="list-style-type: disc; padding-left: 1.5em; line-height: 1.6;">
 
+## Publications
+
+<li style="margin-bottom: 1em;"> <strong>Sangiovanni, S.</strong> - <em>"Valence Strategies and Polling Support during Electoral Campaigns"</em> · Forthcoming in <em>Journal of Elections, Public Opinion and Parties</em> </li>
+
 ## Revise & Resubmit
 
   <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“Who Cares About Valence Issues? Issue Priorities Among Voters of Valence Populist Parties”</em> · Electoral Studies</li> 
-
-  <li style="margin-bottom: 1em;"><strong>Sangiovanni, S.</strong> — <em>“When Valence Strategies increase Polling Support: Evidence from Electoral Campaigns”</em> · Journal of Elections, Public Opinion and Parties </li> 
 
 ## Under Review
 
