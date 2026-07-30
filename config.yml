@@ -56,11 +56,13 @@ params:
       subtitle: |
         <p class="profile-greeting">Hello, this is Stefano! 🌊</p>
 
-        <p>I’m a PhD candidate in Political Science at <a class="profile-link" href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of Prof. <a class="profile-link" href="https://andreaceron.com/"><b>Andrea Ceron</b></a> and Prof. <a class="profile-link" href="https://giovannainvernizzi.com/"><b>Giovanna Invernizzi</b></a>. During my PhD, I have also been a visiting fellow at the Mannheim Centre for European Social Research (MZES) and at Trinity College Dublin. </p></p>
+        <p>I’m a PhD candidate in Political Science at <a class="profile-link" href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of Prof. <a class="profile-link" href="https://andreaceron.com/"><b>Andrea Ceron</b></a> and Prof. <a class="profile-link" href="https://giovannainvernizzi.com/"><b>Giovanna Invernizzi</b></a>. During my PhD, I have also been a visiting fellow at the Mannheim Centre for European Social Research (MZES) and at Trinity College Dublin.</p>
 
-        <p>My research focuses on <b>political parties</b> and <b>valence politics</b>, analyzing how parties shape political competition by balancing positional and valence-based strategies in electoral campaigns and parliamentary debates. I also study how negative valence shocks, such as <b>political scandals</b>, affect voter perceptions.</p>
+        <p>From October 2026, I will join the <a class="profile-link" href="https://www.uni-konstanz.de/en/"><b>University of Konstanz</b></a> as a postdoctoral researcher in the <a class="profile-link" href="https://www.exc.uni-konstanz.de/en/inequality/"><b>Cluster of Excellence, The Politics of Inequality</b></a>.
 
-        <p>I combine <b>quantitative</b> and <b>computational methods</b>, using text-as-data, survey experiments and large language models.</p>
+        <p>In my dissertation, I study <b>political parties</b> and <b>valence politics</b>, analyzing how parties shape political competition by balancing positional and valence-based strategies in electoral campaigns and parliamentary debates. I also investigate how negative valence shocks, such as <b>political scandals</b>, affect voter perceptions.</p>
+
+        <p>My work combines <b>quantitative</b> and <b>computational methods</b>, including text-as-data, survey experiments, and large language models.</p>
 
         <p>Don’t hesitate to reach out if you’d like to chat about research, political parties, nerdy stuff, music (punk!), and sports!</p>
       imageUrl: "picture.png"
