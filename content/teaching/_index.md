@@ -1,6 +1,6 @@
 ---
 title: "Teaching experiences"
-description: "Teaching experiences and material"
+description: "Teaching experience, guest lectures, and course materials in political science, survey experiments, research design, R, and Python by Stefano Sangiovanni."
 ---
 
 ## Academic Tutoring & Teaching Assistant
@@ -8,11 +8,11 @@ description: "Teaching experiences and material"
 <ul style="list-style-type: disc; padding-left: 2.25em; line-height: 1.6;">
   <li style="margin-bottom: 1em;">
     <strong>Data Science for Organisations</strong><br>
-    <span style="font-size: 0.85em; font-style: italic;">Applied turorials in R · University of Milan · Prof. Cremonini · 2026-2027</span>
+    <span style="font-size: 0.85em; font-style: italic;">Applied tutorials in R · University of Milan · Prof. Cremonini · 2026-2027</span>
   </li>
     <li style="margin-bottom: 1em;">
     <strong>Data Visualization for Management</strong><br>
-    <span style="font-size: 0.85em; font-style: italic;">Applied turorials in Python · University of Milan · Prof. Cremonini · 2026-2027</span>
+    <span style="font-size: 0.85em; font-style: italic;">Applied tutorials in Python · University of Milan · Prof. Cremonini · 2026-2027</span>
   </li>
   <li style="margin-bottom: 1em;">
     <strong>Bachelor’s Degree Course in Political Science</strong><br>
@@ -35,6 +35,11 @@ description: "Teaching experiences and material"
 ## Guest Lectures
 
 <ul style="list-style-type: disc; padding-left: 2.25em; line-height: 1.6;">
+  <li style="margin-bottom: 1em;">
+    <strong>Introduction to R</strong><br>
+    <span style="font-size: 0.85em; font-style: italic;">MetRiSP Crash Course Day, SISP 2026 · Trento · 2 September 2026</span><br>
+    <span style="font-size: 0.85em; font-style: italic;">Crash course on data manipulation and visualization in R. · <span style="box-shadow: 0 2px 0 var(--darkcolor);">Course material</span></span>
+  </li>
   <li style="margin-bottom: 1em;">
     <strong>Public Policy</strong><br>
     <span style="font-size: 0.85em; font-style: italic;">Bachelor's Degree in Organizational Sciences, University of Milan Bicocca · Prof. Fedra Negri · 2025-26</span><br>

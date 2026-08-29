@@ -1,12 +1,11 @@
-baseURL: "https://ste-sangiovanni.github.io" 
+baseURL: "https://ste-sangiovanni.github.io/"
 title: Stefano Sangiovanni
 theme: PaperMod
+languageCode: en-us
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-
-taxonomies:
-    tag: tags
+disableKinds: ["taxonomy", "term"]
 
 menu:
   main:
@@ -17,19 +16,43 @@ menu:
         target: "_blank"
     - name: Conferences & Talks
       url: talks/
-      weight: 3
+      weight: 4
     - name: Research
       url: research/
-      weight: 4
+      weight: 3
     - name: Teaching
       url: teaching/
       weight: 5
 
 
 params:
-    description: "Stefano Sangiovanni – PhD Candidate in Political Science specializing in party politics, applying computational and quantitative methods for political data analysis"
+    description: "Stefano Sangiovanni is a computational political scientist studying party competition, political communication, electoral behaviour, and political text using computational, quantitative, and experimental methods."
+    keywords:
+      - Stefano Sangiovanni
+      - computational political science
+      - political parties
+      - party competition
+      - political communication
+      - electoral behaviour
+      - valence politics
+      - quantitative text analysis
+      - text as data
+      - computational social science
+      - survey experiments
+      - large language models
+    images:
+      - picture.png
     author: Stefano Sangiovanni
     googleAnalyticsID: "G-HL9B2WVWME"
+    social:
+      twitter: SteSangio
+    schema:
+      publisherType: Person
+      sameAs:
+        - https://scholar.google.com/citations?user=DupaeIoAAAAJ&hl=en
+        - https://github.com/ste-sangiovanni
+        - https://x.com/SteSangio
+        - https://bsky.app/profile/stesangio.bsky.social
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -49,32 +72,32 @@ params:
     ShowWordCount: false
     UseHugoToc: true
     comments: false
-    math: true
     profileMode:
       enabled: true
       title: Stefano Sangiovanni
       subtitle: |
         <p class="profile-greeting">Hello, this is Stefano! 🌊</p>
 
-        <p>I’m a PhD candidate in Political Science at <a class="profile-link" href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of Prof. <a class="profile-link" href="https://andreaceron.com/"><b>Andrea Ceron</b></a> and Prof. <a class="profile-link" href="https://giovannainvernizzi.com/"><b>Giovanna Invernizzi</b></a>. During my PhD, I have also been a visiting fellow at the Mannheim Centre for European Social Research (MZES) and at Trinity College Dublin.</p>
+        <p>I am a <b>computational political scientist</b> studying how political parties compete, communicate, and are evaluated by voters. My research focuses on <b>party competition</b> and <b>electoral behaviour</b>, with a particular interest in <b>valence politics</b>: how parties build and contest reputations for competence, integrity, and performance, and how these reputations shape voter behaviour and political accountability.</p>
 
-        <p>From October 2026, I will join the <a class="profile-link" href="https://www.uni-konstanz.de/en/"><b>University of Konstanz</b></a> as a postdoctoral researcher in the <a class="profile-link" href="https://www.exc.uni-konstanz.de/en/inequality/"><b>Cluster of Excellence, The Politics of Inequality</b></a>.
+        <p>I’m currently completing my PhD in Political Science at <a class="profile-link" href="https://www.nasp.eu/"><b>NASP, University of Milan</b></a> under the supervision of Prof. <a class="profile-link" href="https://andreaceron.com/"><b>Andrea Ceron</b></a> and Prof. <a class="profile-link" href="https://www.giovannainvernizzi.com/"><b>Giovanna Invernizzi</b></a>. During my PhD, I have also been a visiting researcher at the Mannheim Centre for European Social Research (MZES) and at Trinity College Dublin.</p>
 
-        <p>In my dissertation, I study <b>political parties</b> and <b>valence politics</b>, analyzing how parties shape political competition by balancing positional and valence-based strategies in electoral campaigns and parliamentary debates. I also investigate how negative valence shocks, such as <b>political scandals</b>, affect voter perceptions.</p>
+        <p>From October 2026, I will join the <a class="profile-link" href="https://www.uni-konstanz.de/en/"><b>University of Konstanz</b></a> as a Postdoctoral Researcher in the <a class="profile-link" href="https://www.exc.uni-konstanz.de/en/inequality/"><b>Cluster of Excellence “The Politics of Inequality”</b></a>. As part of the <a class="profile-link" href="https://www.exc.uni-konstanz.de/en/inequality/research/projects/inequality-and-support-for-long-term-investment-policies/"><b>IneqInvest project</b></a>, I will use computational methods to study parties’ positions on long-term investment policies and their implications for political representation and socioeconomic inequalities.</p>
 
-        <p>My work combines <b>quantitative</b> and <b>computational methods</b>, including text-as-data, survey experiments, and large language models.</p>
+        <p>My work combines <b>quantitative</b>, <b>experimental</b>, and <b>computational methods</b>, including survey experiments, text-as-data, and large language models.</p>
 
-        <p>Don’t hesitate to reach out if you’d like to chat about research, political parties, nerdy stuff, music (punk!), and sports!</p>
+        <p>Don’t hesitate to reach out if you’d like to chat about research, nerdy stuff, music, or sports!</p>
       imageUrl: "picture.png"
+      imageTitle: "Portrait of Stefano Sangiovanni"
       imageWidth: 230
       imageHeight: 230
       buttons:
         - name: CV
           url: https://raw.githubusercontent.com/ste-sangiovanni/-06--CV/main/CV.pdf
-        - name: Conferences & Talks
-          url: talks/
         - name: Research
           url: research/
+        - name: Conferences & Talks
+          url: talks/
         - name: Teaching
           url: teaching/
     socialIcons:
@@ -88,8 +111,9 @@ params:
         #  url: location/
         #- name: Office Hours
         #  url: officehours/
-        #- name: Google Scholar
-        #  url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: GoogleScholar
+          title: Google Scholar
+          url: https://scholar.google.com/citations?user=DupaeIoAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/ste-sangiovanni
         #- name: Substack
@@ -103,7 +127,6 @@ params:
 
     assets:
         disableScrollBarStyle: true
-        disalbleHLJS: true
     cover:
         hiddenInList: false
         hiddenInSingle: true

@@ -1,0 +1,29 @@
+.post-content .research-list {
+    margin-left: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.post-content .research-entry {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+.research-citation {
+    line-height: 1.55;
+}
+
+.research-meta {
+    margin-top: 0.2rem;
+    color: var(--secondary);
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.post-content .research-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    color: var(--primary);
+    white-space: nowrap;
+}
